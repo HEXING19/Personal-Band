@@ -1,19 +1,20 @@
 # 何19个人品牌
 
-以「缓存是怎么工作的？」为例，展示同一套个人形象和配色在技术 PPT 与短视频中的用法。
+为技术科普内容制作的边角署名。圆形头像可单独使用，也可和「何19」并排。
 
-## 样板
+![何19品牌资产总览](output/he19-brand-assets.png)
 
-- [可编辑 PPT](output/he19-cache.pptx) · 5 页
-- [视频样片](output/he19-cache.mp4) · 19 秒，无旁白
-- [透明底头像](output/he19-avatar-preview.png) · 用于这次试排的早期版本
+## 可直接使用的文件
 
-![PPT 五页总览](previews/ppt-overview.png)
+| 资产 | 文件 |
+| --- | --- |
+| 品牌资产总览 | [PNG](output/he19-brand-assets.png) |
+| 圆形头像 | [透明 PNG](output/he19-avatar-preview.png) |
+| 浅底署名 | [透明 PNG](output/he19-signature-light-bg.png) |
+| 深底署名 | [透明 PNG](output/he19-signature-dark-bg.png) |
+| PPT 样板 | [可编辑 PPTX](output/he19-cache.pptx) · [五页预览](previews/ppt-overview.png) |
+| 视频样片 | [19 秒 MP4](output/he19-cache.mp4) · [关键帧预览](previews/video-keyframes.png) |
 
-![视频关键帧](previews/video-keyframes.png)
+PPT 只在封面和结尾右下角署名。视频只在开场右上角短暂署名。示例中使用的是可从工作区取到的试排版头像。
 
-## 源文件
-
-[配色与字体](source/video/DESIGN.md) · [PPT 生成脚本](source/make_ppt.py) · [视频 HTML](source/video/index.html) · [视频渲染脚本](source/render_he19.py)
-
-`drafts/` 保存工作区现有的角色和应用概念图。
+[配色、字体与摆放](source/video/DESIGN.md) · [PPT 源文件](source/make_ppt.py) · [视频 HTML](source/video/index.html) · [视频渲染脚本](source/render_he19.py)
