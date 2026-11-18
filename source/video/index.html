@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>何19 · 缓存是怎么工作的？</title>
+<script src="gsap.min.js"></script>
+<style>
+@font-face{font-family:"Noto Sans CJK SC";src:url("he19-ui.otf") format("opentype")}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans CJK SC",sans-serif}
+#he19{position:relative;width:1280px;height:720px;overflow:hidden;background:#14213a;color:#fffaf3}
+.clip{position:absolute;inset:0}
+.scene-content{display:flex;flex-direction:column;width:100%;height:100%;padding:78px 94px 72px;gap:23px}
+h1,h2,p{margin:0}
+h1{font-size:86px;line-height:1.16;max-width:880px;letter-spacing:-3px}
+h2{font-size:61px;line-height:1.2;letter-spacing:-2px}
+.kicker{font-size:23px;font-weight:700;color:#ffae36}
+.rule{width:94px;height:8px;background:#ffae36;border-radius:8px;transform-origin:left}
+.byline{display:flex;align-items:center;gap:17px;font-size:27px;font-weight:700;margin-top:15px}
+.byline img{width:69px;height:69px}
+.step{font-size:25px;color:#dce5f4}
+.rows{display:flex;flex-direction:column;gap:18px;margin-top:18px}
+.row{display:grid;grid-template-columns:270px 65px auto;align-items:center;font-size:35px;font-weight:700}
+.tag{padding:15px 22px;border-radius:12px;background:#293d5b}
+.hit .tag{background:#ffae36;color:#14213a}
+.arrow{text-align:center;color:#ffae36}
+.caption{margin-top:auto;font-size:27px;color:#eff2fb}
+.pink{background:#f8ddd8;color:#14213a;padding:35px 40px;border-radius:18px;margin-top:10px}
+.pink strong{display:block;font-size:39px;margin-bottom:16px}
+.pink p{font-size:29px}
+</style></head>
+<body>
+<main id="he19" data-composition-id="he19" data-start="0" data-duration="19" data-width="1280" data-height="720">
+<section class="clip" id="intro" data-start="0" data-duration="4" data-track-index="1"><div class="scene-content">
+<p class="kicker">技术科普</p><h1>缓存是怎么工作的？</h1><div class="rule"></div>
+<div class="byline"><img src="avatar.png" alt=""><span>何19</span></div>
+<p class="caption">从一次商品详情请求开始。</p></div></section>
+<section class="clip" id="flow" data-start="3.7" data-duration="8" data-track-index="2"><div class="scene-content">
+<p class="kicker">请求流程</p><h2>先查缓存</h2><p class="step">请求打开商品详情页</p>
+<div class="rows"><div class="row hit"><div class="tag">缓存命中</div><span class="arrow">→</span><span>直接返回商品详情</span></div>
+<div class="row miss"><div class="tag">缓存未命中</div><span class="arrow">→</span><span>查数据库，再写入缓存</span></div></div>
+<p class="caption">下次请求同一件商品，就可能直接从缓存读取。</p></div></section>
+<section class="clip" id="tip" data-start="11.4" data-duration="7.6" data-track-index="3"><div class="scene-content">
+<p class="kicker">常见误区</p><h2>命中就一定最新吗？</h2>
+<div class="pink"><strong>商品价格更新后，旧价格可能仍在缓存里。</strong><p>更新后可以删除对应缓存，并设置合理的过期时间。</p></div>
+<p class="caption">命中只表示缓存里有数据。</p></div></section>
+</main>
+<script>
+window.__timelines = {};
+const tl = gsap.timeline({paused:true});
+tl.from("#intro h1",{y:28,opacity:0,duration:.55},.05)
+  .from("#intro .rule",{scaleX:0,duration:.35},.42)
+  .from("#intro .byline",{x:-18,opacity:0,duration:.4},.55)
+  .to("#intro",{opacity:0,duration:.30},3.7)
+  .from("#flow",{opacity:0,duration:.30},3.7)
+  .from("#flow .hit",{x:-22,opacity:0,duration:.45},4.55)
+  .from("#flow .miss",{x:-22,opacity:0,duration:.45},7.1)
+  .to("#flow",{opacity:0,duration:.30},11.4)
+  .from("#tip",{opacity:0,duration:.30},11.4)
+  .from("#tip .pink",{y:20,opacity:0,duration:.45},12.05);
+window.__timelines.he19 = tl;
+</script>
+</body></html>
