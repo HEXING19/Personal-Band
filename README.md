@@ -6,7 +6,11 @@
 
 [查看使用规范](BRAND-GUIDE.md)，包含 PPT 和视频的尺寸、位置、时机与发布前检查。
 
-## 可直接使用的文件
+## 完整素材包
+
+[打开素材目录、下载链接和使用说明](kit/README.md) · [预览横竖屏模板](previews/kit-overview.png) · [预览 PPT 版式](previews/kit-ppt.png)
+
+## 品牌总览与样例
 
 | 资产 | 文件 |
 | --- | --- |

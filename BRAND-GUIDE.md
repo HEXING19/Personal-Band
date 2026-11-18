@@ -2,7 +2,7 @@
 
 「何19」在 PPT 和视频里承担署名功能。观众先读标题、图表和字幕，需要确认作者时，再在边角看到头像和名字。
 
-[查看品牌资产总览](output/he19-brand-assets.png)
+[查看品牌资产总览](output/he19-brand-assets.png) · [选择可复用组件](kit/README.md)
 
 ## 选哪一个文件
 
