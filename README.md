@@ -4,6 +4,8 @@
 
 ![何19品牌资产总览](output/he19-brand-assets.png)
 
+[查看使用规范](BRAND-GUIDE.md)，包含 PPT 和视频的尺寸、位置、时机与发布前检查。
+
 ## 可直接使用的文件
 
 | 资产 | 文件 |
