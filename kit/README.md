@@ -18,7 +18,7 @@
 | 社媒头像 | [1024 × 1024 方形头像](identity/avatar-square.png) |
 | 在封面或 PPT 里摆放头像 | [透明底圆形头像](identity/avatar-transparent.png) |
 | 讲者介绍页、个人主页或封面侧边 | [透明底全身像 · 1024 × 1536](identity/full-body-transparent.png) |
-| 运动休闲造型 | [连帽卫衣全身像](identity/full-body-hoodie.png) · [运动外套与斜挎包全身像](identity/full-body-crossbody.png)，均为 704 × 1056 透明 PNG |
+| 运动休闲造型 | [连帽卫衣 · 自然露齿笑](identity/full-body-hoodie.png) · [斜挎包 · 微微偏头、轻挑眉](identity/full-body-crossbody.png)，均为 704 × 1056 透明 PNG |
 | 浅色画面角落 | [深蓝字透明署名](identity/signature-light.png) |
 | 深色画面角落 | [浅色字透明署名](identity/signature-dark.png) |
 | 统一查看色板、字体和角标署名 | [品牌资产总览](../output/he19-brand-assets.png) |
