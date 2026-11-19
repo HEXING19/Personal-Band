@@ -12,6 +12,7 @@
 | 深色背景 | [深底署名 PNG](output/he19-signature-dark-bg.png)，浅色字 |
 | 社媒头像或只容得下一个圆的位置 | [圆形头像 PNG](output/he19-avatar-preview.png) |
 | 讲者介绍页或个人主页有一侧留白 | [全身像 PNG](kit/identity/full-body-transparent.png) |
+| 轻松的个人分享、运动休闲主题 | [连帽卫衣全身像](kit/identity/full-body-hoodie.png) · [运动外套与斜挎包全身像](kit/identity/full-body-crossbody.png) |
 
 署名图已经把头像和「何19」排在一起。插入时锁定宽高比，整张缩放一次即可。全身像适合有独立人物区的页面，放在标题一侧并留出鞋底和画面边缘之间的空间。当前资产使用试排头像。替换人物图时，同时更新圆形头像和两套署名。
 
