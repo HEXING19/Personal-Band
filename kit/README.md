@@ -1,6 +1,6 @@
 # 何19个人品牌素材包
 
-这套素材用于 PPT、视频、图文和个人资料。署名用在封面、开场或结尾的空角。图表、正文和字幕可沿用各期内容自己的样式。
+在这里下载 PPT、视频、图文和个人资料模板。字体、用色及署名摆放见下方的品牌使用规范。
 
 [下载整个仓库 ZIP](https://github.com/HEXING19/Personal-Band/archive/refs/heads/main.zip) · [品牌使用规范](../BRAND-GUIDE.md) · [查看平台模板预览](../previews/kit-overview.png)
 
